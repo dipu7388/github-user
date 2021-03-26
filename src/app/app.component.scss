@@ -1,0 +1,19 @@
+@import 'src/sass/variables';
+@import 'src/sass/mixins';
+@import 'src/sass/grid';
+
+
+.pages-stack{
+  background-color: $bg-primary;
+  height: 100%;
+  pointer-events: auto;
+}
+
+
+
+
+.simplebar-scroll-content, .simplebar-content{
+  height: 100%;
+}
+
+

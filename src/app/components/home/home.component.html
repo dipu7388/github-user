@@ -1,0 +1,33 @@
+<header>
+  <a routerLink="/">
+    <i class="fa fa-github" style="font-size: 2em"></i>
+  </a>
+  <h1>GitHub</h1>
+</header>
+<br />
+<nav>
+  <a
+    *ngFor="let link of tabs"
+    [routerLink]="[link?.path]"
+    routerLinkActive="active"
+  >
+    {{ link?.label }}
+  </a>
+</nav>
+<div class="wrapper">
+  <div class="left">
+    <img [src]="user?.avatar_url" class="user-img" alt="user Image" />
+    <p>{{ user?.login }}</p>
+    <p>
+      <i class="fa fa-users" aria-hidden="true"></i>
+      {{ user?.followers }} Followers <b>.</b> {{ user?.following }} Following
+    </p>
+    <p><i class="fa location"></i>{{ user?.location }}</p>
+  </div>
+  <div class="right">
+    <router-outlet></router-outlet>
+  </div>
+</div>
+<div class="loader" *ngIf="loading">
+  <mat-spinner></mat-spinner>
+</div>

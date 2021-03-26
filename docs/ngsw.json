@@ -1,0 +1,101 @@
+{
+  "configVersion": 1,
+  "timestamp": 1616784500164,
+  "index": "/github-user/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/github-user/favicon.ico",
+        "/github-user/index.html",
+        "/github-user/main.58516e85f23e22333bbf.js",
+        "/github-user/manifest.webmanifest",
+        "/github-user/polyfills.8c151b8375e767ff858f.js",
+        "/github-user/runtime.0e49e2b53282f40c8925.js",
+        "/github-user/styles.0b1d7107c3986b0fa0ee.css",
+        "/github-user/vendor.7cd9850704531dbe6def.js"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/github-user/assets/fonts/Roboto-Bold.ttf",
+        "/github-user/assets/fonts/Roboto-Italic.ttf",
+        "/github-user/assets/fonts/Roboto-Light.ttf",
+        "/github-user/assets/fonts/Roboto-Medium.ttf",
+        "/github-user/assets/fonts/Roboto-Regular.ttf",
+        "/github-user/assets/icons/Icon-144.png",
+        "/github-user/assets/icons/Icon-192.png",
+        "/github-user/assets/icons/Icon-36.png",
+        "/github-user/assets/icons/Icon-48.png",
+        "/github-user/assets/icons/Icon-512.png",
+        "/github-user/assets/icons/Icon-72.png",
+        "/github-user/assets/icons/Icon-96.png",
+        "/github-user/fontawesome-webfont.eot",
+        "/github-user/fontawesome-webfont.svg",
+        "/github-user/fontawesome-webfont.ttf",
+        "/github-user/fontawesome-webfont.woff",
+        "/github-user/fontawesome-webfont.woff2"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/github-user/assets/fonts/Roboto-Bold.ttf": "47327df0f35e7cd7c8645874897a7449697544ae",
+    "/github-user/assets/fonts/Roboto-Italic.ttf": "493e74f72fac5d61e8dfc9bb1ff0a278ee584750",
+    "/github-user/assets/fonts/Roboto-Light.ttf": "e321c183e2b75ee19813892b7bac8d7c411cb88a",
+    "/github-user/assets/fonts/Roboto-Medium.ttf": "6060ca726b9760b76f7c347dce9d2fa1fe42ec92",
+    "/github-user/assets/fonts/Roboto-Regular.ttf": "824b5480c977a8166e177e5357d13164ccc45f47",
+    "/github-user/assets/icons/Icon-144.png": "b7f209d67d5494a46d75ad95aa8acfc09301ba2a",
+    "/github-user/assets/icons/Icon-192.png": "cd33653a82fa6d709740b88522019181b977ed3d",
+    "/github-user/assets/icons/Icon-36.png": "3be2f0bba9e5376b7130519e391052105cecfc11",
+    "/github-user/assets/icons/Icon-48.png": "2580f458a9d418e3ea80f173273585e4109376b5",
+    "/github-user/assets/icons/Icon-512.png": "35726de1d02e7526ea1185bd9a659c75f3fb1c73",
+    "/github-user/assets/icons/Icon-72.png": "a7800e3984d3dbb8e0d749027408d753ed13e309",
+    "/github-user/assets/icons/Icon-96.png": "1a6bcc69de64cd0a0984c739c51bb96558a2e11a",
+    "/github-user/favicon.ico": "fd243b0d4069c5bf86065722c08927826e45d96f",
+    "/github-user/fontawesome-webfont.eot": "d980c2ce873dc43af460d4d572d441304499f400",
+    "/github-user/fontawesome-webfont.svg": "98a8aa5cf7d62c2eff5f07ede8d844b874ef06ed",
+    "/github-user/fontawesome-webfont.ttf": "13b1eab65a983c7a73bc7997c479d66943f7c6cb",
+    "/github-user/fontawesome-webfont.woff": "28b782240b3e76db824e12c02754a9731a167527",
+    "/github-user/fontawesome-webfont.woff2": "d6f48cba7d076fb6f2fd6ba993a75b9dc1ecbf0c",
+    "/github-user/index.html": "f032498a57ca6b2cf84db82c0f7e92741dae46f7",
+    "/github-user/main.58516e85f23e22333bbf.js": "f3e5457334ed907d10512d5d5b0ee8238e94f178",
+    "/github-user/manifest.webmanifest": "5f60c21a143000abb4c9d2c0fe03e805ab2395c9",
+    "/github-user/polyfills.8c151b8375e767ff858f.js": "763cd3b34dfa4600ebb9d9588ec7116988e98920",
+    "/github-user/runtime.0e49e2b53282f40c8925.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/github-user/styles.0b1d7107c3986b0fa0ee.css": "0f0510222ccea52eff9972cb2f8c266d15a41ee7",
+    "/github-user/vendor.7cd9850704531dbe6def.js": "5c22df7eb489d6b1ec20e162e943ebdd94968980"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}

@@ -1,0 +1,10 @@
+<div class="wrapper">
+  <div class="card" *ngFor="let evt of evts">
+    <p class="name">Type : {{ evt?.type }}</p>
+    <p>Repo name: {{ evt?.repo?.name }}</p>
+    <p>Event By:{{ evt?.actor?.login }}</p>
+  </div>
+</div>
+<div class="loader" *ngIf="loading">
+  <mat-spinner></mat-spinner>
+</div>

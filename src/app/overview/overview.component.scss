@@ -1,0 +1,15 @@
+.wrapper{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  .card {
+    width: calc(50% - 24 * 2px);
+    margin: 24px;
+    border-radius: 5px;
+    border: 0.25px solid black;
+    padding: 16px;
+    .name{
+      color: #0366d6;
+    }
+  }
+}
