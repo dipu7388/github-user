@@ -19,7 +19,7 @@ const routes: Routes = [
       { path: '', redirectTo: 'overview', pathMatch: 'full' },
     ],
   },
-  { path: '', redirectTo: 'dipu7388', pathMatch: 'full' },
+  { path: '', redirectTo: 'erossignon', pathMatch: 'full' },
 ];
 
 @NgModule({

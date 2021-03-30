@@ -28,15 +28,16 @@ body {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
-  height: 100%;
+  min-height: 100%;
   overflow: auto;
   font-family: "Roboto Regular", "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1.65;
-  color: #040404;
+  color: #24292e;
   background-color: $bg-primary;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
 }
 html{
   height: 100%;
@@ -481,11 +482,9 @@ a:focus {
 
 a {
   text-decoration: none;
-  color: #e1e1e1;
   outline: none; }
 
-a:hover {
-  color: #fff; }
+
 
 
 

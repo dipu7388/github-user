@@ -23,7 +23,7 @@ nav {
   position: sticky;
   top: 0;
   z-index: 2;
-  background-color: #f6f6f6;
+  background-color: #fff;
 
   a {
     color: #555a70;
@@ -37,9 +37,19 @@ nav {
 
   }
 }
+p i.fa{
+  margin-right: 0.75em;
+}
+a p{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .wrapper{
-  height: 100%;
+  min-height: 100%;
   padding: 24px;
+  max-width: 1280px;
+  margin: 0 auto;
   .left{
     width: 25%;
     float: left;
@@ -49,11 +59,33 @@ nav {
             z-index: 3;
             position: relative;
     }
+    .name{
+      color: #24292e;
+      font-size: 1.25em;
+      font-weight: bold;
+    }
+    .buttons{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      button{
+        margin-top: 0.3em;
+        padding: 0.5em 1em;
+        border: none;
+        outline: none;
+        border-radius: 5px;
+      }
+    }
   }
   .right{
     width: 75%;
     float: left;
     height: 100%;
+    padding-left: 1em;
+max-width: 720px;
+position: relative;
+
   }
 }
 
@@ -83,5 +115,30 @@ nav {
 }
 
 
-
+.footer{
+  display: flex;
+  flex-direction: column;
+  padding: 3em 2em;
+  .bdr{
+        border-top: 1px solid #eaecef;
+  }
+  a{
+    color: #0366d6;
+    font-size: 0.8em;
+  }
+  .list-style-none{
+    list-style: none;
+    li{
+      display: inline-block;
+      padding: 0.3em 0.5em;
+      margin: 0.5em 0.75em;
+    }
+  }
+  ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+        justify-content: center;
+  }
+}
 

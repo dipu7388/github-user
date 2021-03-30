@@ -20,6 +20,8 @@ export class HomeComponent implements OnInit {
     { label: 'Projects', path: 'project' },
     { label: 'Packages', path: 'package' },
   ];
+  start = Math.round(Math.random() * 20);
+
   constructor(
     private http: HttpService,
     private activateRoute: ActivatedRoute,
